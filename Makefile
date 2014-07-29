@@ -13,5 +13,8 @@ SHELL:=/bin/bash
 ./:
 	cd bryllup && OUT_DIR="../" ENV="production" make
 
-.PHONY: ./
+clean:
+	rm -fr build* index.html moment* typeface*
+
+.PHONY: ./ clean
 
