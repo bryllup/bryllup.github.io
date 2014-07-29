@@ -1,0 +1,3 @@
+[submodule "bryllup"]
+	path = bryllup
+	url = git@github.com:bryllup/bryllup
